@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Template &middot; Bootstrap</title>
+        <title>BabyCare</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -79,6 +79,19 @@
                 border-right: 0;
                 border-radius: 0 3px 3px 0;
             }
+            .checkbox {
+                padding-left: 200px;
+            }
+            .checkbox li {
+                background: url('http://www.newparent.com/wp-content/themes/WP-MagTheme10-Prem/images/checkbox.gif') 0px 4px no-repeat;
+                padding: 0 0 2px 40px;
+                list-style-type: none;
+                color: #691919;
+            }
+            .checkbox h4 {
+                font-weight: lighter;
+                color: #691919;
+            }
         </style>
         <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -100,15 +113,18 @@
         <div class="container">
 
             <div class="masthead">
-                <h3 class="muted">Project name</h3>
+                <h3 class="muted">BabyCare</h3>
                 <div class="navbar">
                     <div class="navbar-inner">
                         <div class="container">
                             <ul class="nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Pregnancy</a></li>
+                                <li class="active"><a href="#">Newborn</a></li>
+                                <li><a href="#">Toddler</a></li>
+                                <!--
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Downloads</a></li>
+                                -->
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
@@ -118,15 +134,116 @@
             </div>
 
             <!-- Jumbotron -->
-            <div class="jumbotron">
-                <h1>Marketing stuff!</h1>
-                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <!--<div class="jumbotron">-->
+            <div class="text-center">
+                <h1>New Baby Checklist</h1>
+                <p class="lead">Everything You Need to Buy</p>
+                <!--
                 <a class="btn btn-large btn-success" href="#">Get started today</a>
+                -->
             </div>
+            <div class="accordian">
+                <ul class="checkbox">
+                    <h4>DIAPERING</h4>
+                    <div class="accordian-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                <li>Diaper changing pads</li>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+                    <li>Diaper rash ointment</li>
+                    <li>4 waterproof pads for chaning table</li>
+                    <li>Rattles and small toys</li>
+                    <li>Dirty diaper receptacle</li>
+                    <li>Wipes or cotton cloths</li>
+                    <li>Small thermos to hold warm water (for cleaning babies
+                    younger than 6 weeks)</li>
+                    <li>Plastic wipes holder (for the diaper bag)</li>
+                    <li>2 packages newborn diapers</li>
+                    <br />
+
+                    <h4>CLOTHING</h4>
+                    <li>1 pack T-shirts</li>
+                    <li>6 one-piece outfits that snap
+                    at the crotch (long- and shortsleeved)</li>
+                    <li>4 pajama sets</li>
+                    <li>6 pairs socks</li>
+                    <li>2 pairs soft booties</li>
+                    <li>2 pairs stretch cotton pants</li>
+                    <li>3 bibs</li>
+                    <li>Cotton sweater</li>
+                    <li>Knit cap</li>
+                    <li>Sun hat</li>
+                    <li>Zip-up sweatshirt</li>
+                    <li>15 baby hangers</li>
+                    <br />
+
+                    <h4>CLEANING</h4>
+                    <li>3 hooded towels</li>
+                    <li>2 packs of washcloths</li>
+                    <li>Cotton swabs</li>
+                    <li>Baby shampoo</li>
+                    <li>Baby body wash</li>
+                    <li>Infant bathing tub</li>
+                    <li>Baby nail clipper</li>
+                    <li>Soft brush and comb</li>
+                    <li>Rubbing alcohol</li>
+                    <li>Petroleum jelly</li>
+                    <li>Digital thermometer</li>
+                    <li>Bulb nasal aspirator</li>
+                    <li>Mild soap for laundry</li>
+                    <br />
+
+                    <h4>LINENS</h4>
+                    <li>4 receiving blankets</li>
+                    <li>2 cotton blankets</li>
+                    <li>Cradle or bassinet with cotton sheets</li>
+                    <li>2 crib mattress pads</li>
+                    <li>2 waterproof liners (one for the bassinet and one for the crib)</li>
+                    <br />
+
+                    <h4>NURSERY</h4>
+                    <li>Crib and mattress</li>
+                    <li>Glider/rocking chair and footrest</li>
+                    <li>Dresser</li>
+                    <li>Hamper</li>
+                    <li>Baby monitor with 2 receivers</li>
+                    <li>Changing table</li>
+                    <li>Cool mist humidifier or vaporizer</li>
+                    <li>Lullaby CDs or audiotapes</li>
+                    <br />
+
+                    <h4>ON THE GO</h4>
+                    <li>Rear-facing infant car seat with head support padding</li>
+                    <li>Stroller</li>
+                    <li>Sun shields for car windows</li>
+                    <li>Portable playpen</li>
+                    <li>Diaper bag</li>
+                    <li>Sling or soft front carrier</li>
+                    <br />
+
+                    <h4>PLAY</h4>
+                    <li>Bouncy seat</li>
+                    <li>Baby books</li>
+                    <li>Digital camera or camcorder</li>
+                    <li>Baby music CDs or audiotapes</li>
+                    <li>Playmat with toys attached</li>
+                    <li>Squishy baby ball</li>
+
+                </ul>
+            </div>
+
 
             <hr>
 
             <!-- Example row of columns -->
+            <!--
             <div class="row-fluid">
                 <div class="span4">
                     <h2>Heading</h2>
@@ -146,9 +263,12 @@
             </div>
 
             <hr>
+            -->
 
             <div class="footer">
+                <!--
                 <p>&copy; Company 2013</p>
+                -->
             </div>
 
         </div> <!-- /container -->
